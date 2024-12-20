@@ -1,0 +1,129 @@
+/* Fullscreen Background */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* Gradient background */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General Container */
+.video-container {
+    font-family: Arial, sans-serif;
+    width: 1000px;
+    /* width: 100%; */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.title {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Upload Section */
+.upload-section {
+    margin-bottom: 30px;
+}
+.upload-section h2 {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.file-input {
+    margin: 10px 0;
+    padding: 8px;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+}
+.upload-btn {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+.upload-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Filter Section */
+.filter-section {
+    margin-bottom: 30px;
+}
+.filter-section h2 {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.datetime-input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+}
+.filter-btn {
+    display: block;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+.filter-btn:hover {
+    background-color: #1e7e34;
+}
+
+/* Video List */
+.video-list h2 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.video-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.video-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.video-player {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+/* Utility Classes */
+.btn {
+    text-align: center;
+    width: 100%;
+}
