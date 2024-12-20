@@ -30,7 +30,7 @@ function Video() {
         formData.append("video", video);
     
         try {
-            const response = await axios.post("http://localhost:5000/api/upload", formData, {
+            const response = await axios.post("https://skoegle-task-backend.onrender.com/api/upload", formData, {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },
@@ -51,7 +51,7 @@ function Video() {
     
     const fetchVideos = async () => {
         try {
-            const response = await axios.get("http://localhost:5000/api/videos");
+            const response = await axios.get("https://skoegle-task-backend.onrender.com/api/videos");
             setVideos(response.data.videos);
         } catch (error) {
             console.error(error);
